@@ -230,12 +230,55 @@ import QtQuick.Layouts 1.3
                 }
             }
             Grid {
-                id: theDays
                 width: parent.width
                 flow: Grid.LeftToRight
                 layoutDirection: Qt.RightToLeft
                 columns: 7
                 y: monthL.height+ 5
+                Label {
+                    horizontalAlignment: Text.AlignHCenter
+                    width: parent.width /7
+                    text: "ش"
+                }
+                Label {
+                    horizontalAlignment: Text.AlignHCenter
+                    width: parent.width /7
+                    text: "ی"
+                }
+                Label {
+                    horizontalAlignment: Text.AlignHCenter
+                    width: parent.width /7
+                    text: "د"
+                }
+                Label {
+                    horizontalAlignment: Text.AlignHCenter
+                    width: parent.width /7
+                    text: "س"
+                }
+                Label {
+                    horizontalAlignment: Text.AlignHCenter
+                    width: parent.width /7
+                    text: "چ"
+                }
+                Label {
+                    horizontalAlignment: Text.AlignHCenter
+                    width: parent.width /7
+                    text: "پ"
+                }
+                Label {
+                    horizontalAlignment: Text.AlignHCenter
+                    width: parent.width /7
+                    text: "ج"
+                }
+
+            }
+            Grid {
+                id: theDays
+                width: parent.width
+                flow: Grid.LeftToRight
+                layoutDirection: Qt.RightToLeft
+                columns: 7
+                y: monthL.height+ 35
 
             }
         }
